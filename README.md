@@ -1,5 +1,11 @@
-A short example on how to use send2gps
-----------------------------------------------
+About
+-----
+
+Several of the GPS manufacturers have simple HTTP-APIs to add POIs (Points Of Interest) to their GPS devices. The intent of this JavaScript lib is to join these into one, since they all differ slightly.
+
+
+Example
+-------
 
 First you need to create a new instance of Send2Gps with your API-keys:
 

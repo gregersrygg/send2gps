@@ -2,6 +2,7 @@ A short example on how to use send2gps
 ----------------------------------------------
 
 First you need to create a new instance of Send2Gps with your API-keys:
+
     var send2gps = new Send2Gps({
         source: "http://yoursite.com",
         lang: "en",
@@ -12,6 +13,7 @@ First you need to create a new instance of Send2Gps with your API-keys:
     });
 
 Then you can use the send2gps instance to get the url needed for a GPS-brand. Valid brands are only "tomtom" and "garmin" for now:
+
     var point = {
         name: "FINN.no",
         lon: 10.74386,
